@@ -1,8 +1,8 @@
 import folium
 import helper
 
-m = folium.Map(location = [10.722569278111912 , 106.74204653739866], zoom_start= 15, tiles = "OpenStreetMap")
-locations = [{"name": "start/stop", "lat": 10.721328051904697 , "lon": 106.74298280483535, "color": "red"}, {"name": "check point 1", "lat": 10.722958031840404 , "lon": 106.74300895564969, "color": "blue"}, {"name": "check point 2", "lat": 10.723140748372106 , "lon": 106.74131425593039, "color": "blue"}, {"name": "check point 3", "lat": 10.721411416603582 , "lon": 106.74120360354819, "color": "blue"}]
+m = folium.Map(location = [0 , 0], zoom_start= 15, tiles = "OpenStreetMap")
+locations = [{"name": "start/stop", "lat": 10.721328051904697 , "lon": 10.74298280483535, "color": "red"}, {"name": "check point 1", "lat": 10.722958031840404 , "lon": 10.74300895564969, "color": "blue"}, {"name": "check point 2", "lat": 10.723140748372106 , "lon": 10.74131425593039, "color": "blue"}, {"name": "check point 3", "lat": 10.721411416603582 , "lon": 10.74120360354819, "color": "blue"}]
 
 lon=[]
 lat=[]
